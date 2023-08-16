@@ -4,4 +4,26 @@
 @tailwind utilities;
 :root {
   font-family: "Commissioner", sans-serif;
+  overflow-x: hidden;
+}
+
+section {
+  @apply relative p-11 bg-white rounded-lg w-full;
+}
+
+nav a {
+  @apply hover:underline;
+}
+
+#progress > div:nth-child(1) {
+  @apply border-r border-dark-gray w-full;
+}
+#progress > div:nth-child(2) {
+  @apply border-r border-dark-gray w-full;
+}
+#progress > div:nth-child(3) {
+  @apply w-full;
+}
+#progress h2 {
+  @apply font-bold text-3xl;
 }/*# sourceMappingURL=index.css.map */

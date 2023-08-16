@@ -6,4 +6,9 @@
 
 :root {
   font-family: "Commissioner", sans-serif;
+  overflow-x: hidden;
+}
+
+section {
+  @apply relative p-11 bg-white rounded-lg w-full;
 }

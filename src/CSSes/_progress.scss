@@ -1,0 +1,15 @@
+#progress {
+  > div:nth-child(1) {
+    @apply border-r border-dark-gray w-full;
+  }
+  > div:nth-child(2) {
+    @apply border-r border-dark-gray w-full;
+  }
+  > div:nth-child(3) {
+    @apply w-full;
+  }
+
+  h2 {
+    @apply font-bold text-3xl;
+  }
+}
