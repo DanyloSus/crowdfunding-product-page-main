@@ -1,7 +1,10 @@
 const Progress = () => {
   return (
     <section>
-      <div className="flex justify-between text-left gap-12" id="progress">
+      <div
+        className="flex justify-between text-left gap-12 md:flex-col md:text-center md:gap-5"
+        id="progress"
+      >
         <div>
           <h2 className="">$89,914</h2>
           <p>of $100,000 backed</p>

@@ -36,7 +36,7 @@ const BackThisProject = () => {
         style={{ height: documentHeight + "px" }}
         id="shadow"
       ></div>
-      <div className="absolute w-screen h-full pt-[184px] z-10">
+      <div className="absolute w-screen h-full pt-[184px] z-10 md:px-6 md:pt-[120px]">
         <section className="text max-w-[730px] mx-auto">
           <img
             src="./icon-close-modal.svg"
@@ -45,7 +45,7 @@ const BackThisProject = () => {
             onClick={handleClose}
           />
           <h1 className="text-xl font-bold">Back this project</h1>
-          <p className="my-6">
+          <p className="my-6 md:text-sm">
             Want to support us in bringing Mastercraft Bamboo Monitor Riser out
             in the world?
           </p>
@@ -54,6 +54,7 @@ const BackThisProject = () => {
               name="Pledge with no reward"
               p="Choose to support us without a reward if you simply believe in our project. As a backer, you will be signed up to receive product updates via email."
               sus={1}
+              left={null}
             />
             <Pledge
               name="Bamboo Stand"

@@ -35,11 +35,11 @@ const Thanks = () => {
         style={{ height: documentHeight + "px" }}
         id="shadow"
       ></div>
-      <div className="absolute w-screen h-full pt-[184px] z-10">
+      <div className="absolute w-screen h-full pt-[184px] z-10 md:px-6 md:pt-[144px]">
         <section className="text max-w-[540px] mx-auto flex flex-col items-center text-center gap-5">
           <img src="./icon-check.svg" alt="icon check" />
           <h1 className="font-bold text-2xl">Thanks for your support!</h1>
-          <p>
+          <p className="md:text-sm">
             Your pledge brings us one step closer to sharing Mastercraft Bamboo
             Monitor Riser worldwide. You will get an email once our campaign is
             completed.

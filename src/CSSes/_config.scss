@@ -9,6 +9,10 @@
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 section {
-  @apply relative p-11 bg-white rounded-lg w-full;
+  @apply relative p-11 bg-white rounded-lg w-full md:px-6 md:py-10;
 }

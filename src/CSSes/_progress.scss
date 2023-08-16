@@ -1,12 +1,16 @@
 #progress {
   > div:nth-child(1) {
-    @apply border-r border-dark-gray w-full;
+    @apply border-r md:pb-5 w-full md:border-0 md:border-b;
   }
   > div:nth-child(2) {
-    @apply border-r border-dark-gray w-full;
+    @apply border-r md:pb-5 w-full md:border-0 md:border-b;
   }
   > div:nth-child(3) {
     @apply w-full;
+  }
+
+  p {
+    @apply md:text-xs;
   }
 
   h2 {

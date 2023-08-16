@@ -7,8 +7,12 @@
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 section {
-  @apply relative p-11 bg-white rounded-lg w-full;
+  @apply relative p-11 bg-white rounded-lg w-full md:px-6 md:py-10;
 }
 
 nav a {
@@ -16,14 +20,21 @@ nav a {
 }
 
 #progress > div:nth-child(1) {
-  @apply border-r border-dark-gray w-full;
+  @apply border-r md:pb-5 w-full md:border-0 md:border-b;
 }
 #progress > div:nth-child(2) {
-  @apply border-r border-dark-gray w-full;
+  @apply border-r md:pb-5 w-full md:border-0 md:border-b;
 }
 #progress > div:nth-child(3) {
   @apply w-full;
 }
+#progress p {
+  @apply md:text-xs;
+}
 #progress h2 {
   @apply font-bold text-3xl;
+}
+
+#mobileMenu div {
+  @apply font-bold text-lg border-b pb-3 mb-3;
 }/*# sourceMappingURL=index.css.map */

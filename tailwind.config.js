@@ -10,6 +10,9 @@ export default {
         black: "hsl(0, 0%, 0%)",
         "dark-gray": "hsl(0, 0%, 48%)",
       },
+      screens: {
+        md: { max: "768px" },
+      },
     },
   },
   plugins: [],
