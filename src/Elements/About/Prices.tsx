@@ -8,7 +8,7 @@ interface PricesProps {
 const Prices = ({ name, price, p, left }: PricesProps) => {
   return (
     <div
-      className="p-8 rounded-lg border border-dark-gray flex flex-col gap-6"
+      className="p-8 rounded-lg border border-dark-gray flex flex-col gap-6 reveal"
       style={left ? {} : { opacity: 0.3 }}
     >
       <div className="flex justify-between items-center md:flex-col md:items-start">

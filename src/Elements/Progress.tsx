@@ -1,8 +1,8 @@
 const Progress = () => {
   return (
-    <section>
+    <section className="reveal">
       <div
-        className="flex justify-between text-left gap-12 md:flex-col md:text-center md:gap-5"
+        className="flex justify-between text-left gap-12 md:flex-col md:text-center md:gap-5 "
         id="progress"
       >
         <div>

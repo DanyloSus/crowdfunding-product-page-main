@@ -37,4 +37,15 @@ nav a {
 
 #mobileMenu div {
   @apply font-bold text-lg border-b pb-3 mb-3;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 0.5s all ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
 }/*# sourceMappingURL=index.css.map */

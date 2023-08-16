@@ -18,6 +18,7 @@ const Header = () => {
         src="./icon-hamburger.svg"
         alt="icon hamburger"
         onClick={handleOpen}
+        className="md:block hidden"
       />
     </header>
   );

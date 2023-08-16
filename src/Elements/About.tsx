@@ -2,7 +2,7 @@ import Prices from "./About/Prices";
 
 const About = () => {
   return (
-    <section>
+    <section className="reveal">
       <h2 className="text-xl font-bold mb-9">About this project</h2>
       <p className="mb-9 md:text-sm">
         The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform

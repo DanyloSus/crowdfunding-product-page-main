@@ -6,7 +6,7 @@ const Top = () => {
   };
 
   return (
-    <section className="pt-0 text-center">
+    <section className="pt-0 text-center reveal">
       <img
         src="./logo-mastercraft.svg"
         alt="logo mastercraft"
